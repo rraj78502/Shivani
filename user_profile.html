@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>user profile</title>
+</head>
+<body>
+     {% for row in data %}
+       {% for First_name in row %}
+         <h1>{{ First_name }}</h1>
+        {% endfor %}
+    {% endfor %}
+</body>
+</html>
